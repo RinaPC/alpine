@@ -1,4 +1,6 @@
 #!/bin/sh
+# https://wiki.alpinelinux.org/wiki/Bootloaders#efibootmgr
+# create UEFI boot entry
 
 params="root=/dev/sda2 rootfstype=btrfs rootflags=subvol=@ rw modules=sd-mod,usb-storage,btrfs\
   initrd=\intel-ucode.img \
