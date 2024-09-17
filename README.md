@@ -23,7 +23,7 @@ vi /etc/apk/repositories
 BOOTLOADER=none setup-disk -s 0 -k edge /mnt
 
 params="root=/dev/sda2 rootfstype=btrfs rootflags=subvol=@ rw modules=sd-mod,usb-storage,btrfs initrd=\intel-ucode.img initrd=\initramfs-edge"
-# efibootmgr --create --disk /dev/sda --part 1 --loader /vmlinuz-edge --label "Alpine Linux" --unicode "${params}" --verbose
+efibootmgr --create --disk /dev/sda --part 1 --loader /vmlinuz-edge --label "Alpine Linux" --unicode "${params}" --verbose
 
 wget https://raw.githubusercontent.com/RinaPC/alpine/main/efi.sh
 
