@@ -1,5 +1,5 @@
 # Alpine
-Alpine Linux + BTRFS + EFI Boot Stub install
+Alpine Linux install (BTRFS + EFI Boot Stub)
 
 ```
 setup-alpine
