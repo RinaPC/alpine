@@ -39,6 +39,10 @@ wget https://raw.githubusercontent.com/RinaPC/alpine/main/efi.sh
 ```
 
 ```
+btrfs subvolume snapshot / /snapshot/install
+```
+
+```
 vi /etc/doas.conf
 permit persist :wheel
 ```
