@@ -1,0 +1,18 @@
+alias up='doas apk update && doas apk upgrade'
+
+alias fast='fastfetch --localip-show-ipv4 0'
+
+#alias nano='nano --modernbindings'
+alias lazy='lazydocker'
+alias nd='nano docker-compose.yml'
+alias dps='docker ps'
+alias dl='docker logs'
+alias di='docker images'
+alias dpull='docker compose pull'
+alias dup='docker compose up -d'
+alias ddown='docker compose down'
+alias dstop='docker stop $(docker ps -q)'
+alias ds='docker stats --no-stream'
+alias wt='docker run --rm --name watchtower -v /var/run/docker.sock:/var/run/docker.sock -e TZ=Asia/Seoul containrrr/watchtower --run-once'
+# alias cr='docker compose exec -w /etc/caddy caddy caddy reload'
+alias tr='docker-compose up -d --force-recreate'
