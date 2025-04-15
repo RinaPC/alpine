@@ -21,7 +21,7 @@ umount /mnt
 mount -o noatime,compress=zstd,space_cache=v2,subvol=@ /dev/sda2 /mnt
 mkdir /mnt/home /mnt/snapshot /mnt/boot
 mount -o noatime,compress=zstd,space_cache=v2,subvol=@home /dev/sda2 /mnt/home
-mount -o noatime,compress=zstd,space_cache=v2,subvol=@snapshots /dev/sda2 /mnt/snapshot
+mount -o noatime,compress=zstd,space_cache=v2,subvol=@snapshot /dev/sda2 /mnt/snapshot
 mount /dev/sda1 /mnt/boot
 ```
 
@@ -55,7 +55,7 @@ setup-devd udev
 ```
 apk add nano nano-syntax e2fsprogs dosfstools mesa-dri-gallium mesa-va-gallium intel-media-driver dbus fastfetch lm-sensors btop openssh-client-default
 apk add sway seatd foot pipewire pipewire-pulse wireplumber mpv firefox fcitx5-hangul fuzzel swaybg swayidle swaylock font-dejavu font-awesome adwaita-icon-theme
-apk add mousepad thunar xarchiver galculator grim slurp
+apk add mousepad thunar exo xarchiver galculator grim slurp
 ```
 
 ```
