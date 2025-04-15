@@ -55,8 +55,11 @@ apk del xwayland wmenu i3status
 ```
 
 ```
-apk add nano nano-syntax e2fsprogs dosfstools mesa-dri-gallium mesa-va-gallium intel-media-driver fastfetch lm-sensors btop openssh-client-default
-apk add pipewire pipewire-pulse wireplumber mpv fcitx5-hangul fuzzel swaybg mousepad thunar exo xarchiver galculator font-awesome adwaita-icon-theme 
+apk add nano nano-syntax e2fsprogs dosfstools fastfetch lm-sensors btop openssh-client-default
+apk add mesa-dri-gallium mesa-va-gallium pipewire pipewire-pulse wireplumber
+apk add mpv fcitx5-hangul fuzzel swaybg mousepad thunar exo xarchiver galculator
+apk add font-awesome adwaita-icon-theme 
+apk add intel-media-driver
 ```
 
 ```
