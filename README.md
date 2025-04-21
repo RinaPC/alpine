@@ -56,7 +56,11 @@ setup-devd udev
 apk add nano nano-syntax e2fsprogs dosfstools mesa-dri-gallium mesa-va-gallium intel-media-driver dbus fastfetch lm-sensors btop openssh-client-default
 apk add sway seatd foot pipewire pipewire-pulse wireplumber mpv firefox fcitx5-hangul fuzzel swaybg swayidle swaylock font-dejavu font-awesome adwaita-icon-theme
 apk add mousepad thunar exo xarchiver galculator grim slurp
+```
 
+```
+rc-update add seatd
+adduser $USER seat
 ```
 
 ```
