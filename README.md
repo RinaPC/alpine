@@ -51,8 +51,8 @@ permit persist :wheel
 setup-wayland-base (Installs and enables elogind, enable udev)
 ```
 setup-wayland-base
+// setup-devd udev
 ```
-<strike>setup-devd udev</strike>
 
 ```
 apk add nano nano-syntax e2fsprogs dosfstools mesa-dri-gallium mesa-va-gallium intel-media-driver dbus fastfetch lm-sensors btop openssh-client-default
@@ -60,10 +60,10 @@ apk add sway seatd font-dejavu foot pipewire pipewire-pulse wireplumber mpv fire
 apk add mousepad thunar exo xarchiver galculator grim slurp
 ```
 
-<strike>rc-update add seatd</strike>
-
-<strike>adduser $USER seat</strike>
-
+```
+\\ rc-update add seatd
+\\ adduser $USER seat
+```
 
 ```
 wget https://raw.githubusercontent.com/RinaPC/alpine/main/.profile
