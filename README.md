@@ -51,19 +51,18 @@ permit persist :wheel
 setup-wayland-base (Installs and enables elogind, enable udev)
 ```
 setup-wayland-base
-<strike>setup-devd udev</strike>
 ```
+<strike>setup-devd udev</strike>
 
 ```
 apk add nano nano-syntax e2fsprogs dosfstools mesa-dri-gallium mesa-va-gallium intel-media-driver dbus fastfetch lm-sensors btop openssh-client-default
-apk add sway <strike>seatd</strike> font-dejavu foot pipewire pipewire-pulse wireplumber mpv firefox fcitx5-hangul fuzzel swaybg swayidle swaylock font-awesome adwaita-icon-theme
+apk add sway seatd font-dejavu foot pipewire pipewire-pulse wireplumber mpv firefox fcitx5-hangul fuzzel swaybg swayidle swaylock font-awesome adwaita-icon-theme
 apk add mousepad thunar exo xarchiver galculator grim slurp
 ```
 
-```
 <strike>rc-update add seatd</strike>
 <strike>adduser $USER seat</strike>
-```
+
 
 ```
 wget https://raw.githubusercontent.com/RinaPC/alpine/main/.profile
