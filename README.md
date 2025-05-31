@@ -51,18 +51,18 @@ permit persist :wheel
 setup-wayland-base (Installs and enables elogind, enable udev)
 ```
 setup-wayland-base
-// setup-devd udev
+<s>setup-devd udev</s>
 ```
 
 ```
 apk add nano nano-syntax e2fsprogs dosfstools mesa-dri-gallium mesa-va-gallium intel-media-driver dbus fastfetch lm-sensors btop openssh-client-default
-apk add sway seatd font-dejavu foot pipewire pipewire-pulse wireplumber mpv firefox fcitx5-hangul fuzzel swaybg swayidle swaylock font-awesome adwaita-icon-theme
+apk add sway <s>seatd</s> font-dejavu foot pipewire pipewire-pulse wireplumber mpv firefox fcitx5-hangul fuzzel swaybg swayidle swaylock font-awesome adwaita-icon-theme
 apk add mousepad thunar exo xarchiver galculator grim slurp
 ```
 
 ```
-// rc-update add seatd
-// adduser $USER seat
+<s>rc-update add seatd</s>
+<s>adduser $USER seat</s>
 ```
 
 ```
