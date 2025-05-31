@@ -48,8 +48,10 @@ vi /etc/doas.conf
 permit persist :wheel
 ```
 
+setup-wayland-base (Installs and enables elogind, enable udev)
 ```
-setup-devd udev
+setup-wayland-base
+// setup-devd udev
 ```
 
 ```
