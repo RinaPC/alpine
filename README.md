@@ -61,6 +61,7 @@ apk add mousepad thunar exo xarchiver galculator grim slurp
 ```
 
 <strike>rc-update add seatd</strike>
+
 <strike>adduser $USER seat</strike>
 
 
