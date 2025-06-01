@@ -48,9 +48,7 @@ vi /etc/doas.conf
 permit persist :wheel
 ```
 
-setup-wayland-base (Installs and enables elogind, enable udev)
 ```
-// setup-wayland-base
 setup-devd udev
 ```
 
@@ -58,7 +56,8 @@ setup-devd udev
 apk add sway seatd font-dejavu foot
 apk add nano nano-syntax e2fsprogs dosfstools mesa-dri-gallium mesa-va-gallium intel-media-driver dbus
 apk add bash bash-completion fastfetch lm-sensors btop openssh-client-default
-apk add pipewire pipewire-pulse wireplumber mpv firefox fcitx5-hangul fuzzel swaybg swayidle swaylock font-awesome adwaita-icon-theme
+apk add fuzzel swaybg swayidle swaylock font-awesome adwaita-icon-theme
+apk add pipewire pipewire-pulse wireplumber mpv firefox fcitx5-hangul
 apk add mousepad thunar exo xarchiver 7zip galculator grim slurp
 ```
 
@@ -72,5 +71,5 @@ wget https://raw.githubusercontent.com/RinaPC/alpine/main/.profile
 ```
 
 ```
-apk add bash bash-completion syncthing bluez rtkit pcituils
+apk add syncthing bluez rtkit pcituils
 ```
