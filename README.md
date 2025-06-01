@@ -50,8 +50,8 @@ permit persist :wheel
 
 setup-wayland-base (Installs and enables elogind, enable udev)
 ```
-setup-wayland-base
-// setup-devd udev
+// setup-wayland-base
+setup-devd udev
 ```
 
 ```
@@ -63,8 +63,8 @@ apk add mousepad thunar exo xarchiver galculator grim slurp
 
 ```
 // apk add seatd dbus
-// rc-update add seatd
-// adduser $USER seat
+rc-update add seatd
+adduser $USER seat
 ```
 
 ```
